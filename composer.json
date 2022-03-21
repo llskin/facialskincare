@@ -1,0 +1,8 @@
+{
+    "name": "angelauy/facial-skincare",
+    "description": "Facial Skincare Devices",
+    "require": {
+        "php": ">=7.4",
+        "another-vendor/package": "1.*"
+    }
+}
