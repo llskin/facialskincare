@@ -1,8 +1,23 @@
 {
     "name": "angelauy/facial-skincare",
-    "description": "Facial Skincare Devices",
+    "description": "<a href=https://www.llskin.jp/>Facial Skincare Devices</a>",
+    "keywords": ["skincare","beauty"],
+    "homepage": "https://www.llskin.jp/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Facial Massager",
+            "email": "llskintech@gmail.com",
+            "homepage": "https://www.llskin.jp/mio2",
+            "role": "Developer"
+        }
+    ],
     "require": {
-        "php": ">=7.4",
-        "another-vendor/package": "1.*"
+        "php": ">=7.4.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Monolog": "src"
+        }
     }
 }
